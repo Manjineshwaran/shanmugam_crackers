@@ -1,6 +1,59 @@
-# Getting Started with Create React App
+# Shanmugam Crackers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app for Shanmugam Crackers – price list and ordering (mobile-first).
+
+## Host on GitHub
+
+### 1. One-time setup
+
+1. **Install the deploy dependency** (if not already installed):
+   ```bash
+   npm install
+   ```
+
+2. **Set your GitHub Pages URL**  
+   In `package.json`, replace `yourusername` in the `homepage` field with your GitHub username:
+   ```json
+   "homepage": "https://YOUR_GITHUB_USERNAME.github.io/shanmugam_crackers"
+   ```
+   *(Use the same repo name as on GitHub, e.g. `shanmugam_crackers`.)*
+
+### 2. Push code to GitHub
+
+1. **Create a new repository** on [GitHub](https://github.com/new):
+   - Name: `shanmugam_crackers` (or any name you prefer)
+   - Do **not** add a README, .gitignore, or license (project already has them)
+
+2. **From your project folder**, run:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit - Shanmugam Crackers"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/shanmugam_crackers.git
+   git push -u origin main
+   ```
+   Replace `YOUR_USERNAME` and `shanmugam_crackers` with your GitHub username and repo name.
+
+### 3. Enable GitHub Pages and deploy
+
+1. On GitHub: **Settings** → **Pages** → under **Source** choose **Deploy from a branch**.
+2. Branch: **gh-pages** (or select it after first deploy), folder **/ (root)** → **Save**.
+3. **Deploy the site** from your machine:
+   ```bash
+   npm run deploy
+   ```
+   This builds the app and pushes the `build` folder to the `gh-pages` branch.
+
+4. After a minute or two, the site will be live at:
+   **https://YOUR_USERNAME.github.io/shanmugam_crackers**
+
+### Later updates
+
+- Push code: `git add .` → `git commit -m "Your message"` → `git push`
+- Update live site: run `npm run deploy` again
+
+---
 
 ## Available Scripts
 
