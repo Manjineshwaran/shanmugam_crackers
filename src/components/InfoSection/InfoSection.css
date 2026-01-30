@@ -1,0 +1,40 @@
+.info-section {
+  background: var(--white);
+  padding: 1rem;
+}
+
+.info-section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.license {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.license-no {
+  background: var(--accent-yellow);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.address {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.address-branch {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 769px) {
+  .info-section {
+    padding: 1rem 1.5rem;
+  }
+}
